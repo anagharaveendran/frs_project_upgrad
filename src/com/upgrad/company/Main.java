@@ -39,9 +39,18 @@ public class Main {
 
          */
 
+        /*
+
+        //Checkpoint 3 starts.........
+
         Flight flight = new Flight("QWE123","abc_airline",200,112);
 
         System.out.println(flight.getFlightDetails());
+
+        //Checkpoint 3 ends.....
+
+         */
+
 
     }
 }
