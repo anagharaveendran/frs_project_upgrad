@@ -1,7 +1,7 @@
 package com.upgrad.company;
 
 public class TouristTicket {
-    public String hotelAddress;
+    private String hotelAddress;
 
 
     public TouristTicket(String hotelAddress){
@@ -14,4 +14,7 @@ public class TouristTicket {
         return hotelAddress;
     }
 
+    public void setHotelAddress(String hotelAddress) {
+        this.hotelAddress = hotelAddress;
+    }
 }

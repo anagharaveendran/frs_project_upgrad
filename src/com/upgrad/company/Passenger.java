@@ -48,6 +48,7 @@ public class Passenger {
         public int getId() {
             return this.id;
         }
+      //  public void setId(int id){this.id = id;}
         public String getAddressDetails() {
             return address.street + ", " + address.city + ", " + address.state;
         }

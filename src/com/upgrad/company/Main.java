@@ -4,6 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+        /*
+
+       // Checkpoint 2 Starts..............
+
+
         Passenger passenger =
                 new Passenger("abc_street", "abc_city",
                         "abc_state", "abc_name", "+9190876354", "abc@qwe.com");
@@ -28,5 +34,14 @@ public class Main {
 
         TouristTicket touristTicket = new TouristTicket("abc_hotel");
         System.out.println(touristTicket.getHotelAddress());
+
+       // Checkpoint 2 ends................
+
+         */
+
+        Flight flight = new Flight("QWE123","abc_airline",200,112);
+
+        System.out.println(flight.getFlightDetails());
+
     }
 }
