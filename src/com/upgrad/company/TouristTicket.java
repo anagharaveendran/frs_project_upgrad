@@ -12,6 +12,10 @@ public class TouristTicket extends Ticket{
         this.selectedTouristLocation = new String[5];
     }
 
+    public TouristTicket() {
+
+    }
+
     public String getHotelAddress() {
         return hotelAddress;
     }

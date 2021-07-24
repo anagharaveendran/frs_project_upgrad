@@ -27,6 +27,10 @@ public class Ticket {
 
     }
 
+    public Ticket() {
+
+    }
+
     public int getId() {
         return id;
     }
@@ -39,8 +43,8 @@ public class Ticket {
         return pnr;
     }
 
-    public void setPnr(String pnr) {
-        this.pnr = pnr;
+    public void setPnr(String newPnr) {
+        this.pnr = newPnr;
     }
 
     public String getFrom() {

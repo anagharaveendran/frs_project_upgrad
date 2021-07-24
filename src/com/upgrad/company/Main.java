@@ -51,6 +51,19 @@ public class Main {
 
          */
 
+        //Checkpoint 5 ..........
 
+        Ticket regularTicket = new RegularTicket(1,"reg-pnr-123","from","to",
+                "dep","arr",
+                "seat",3000,true,"food");
+        Ticket touristTicket = new TouristTicket(2,"tour-pnr-456","from","to","dep","arr",
+                "seat",2500,true,"hotel");
+        printTicketDetails(regularTicket);
+        printTicketDetails(touristTicket);
+    }
+
+    public static void printTicketDetails(Ticket ticket){
+      // RegularTicket regularTicket = new RegularTicket();
+        System.out.println("PNR NO: "+ticket.getPnr());
     }
 }
