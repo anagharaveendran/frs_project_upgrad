@@ -1,6 +1,6 @@
 package com.upgrad.company;
 
-public class TouristTicket extends Ticket{
+public class TouristTicket extends Ticket{ // Inherited from Ticket
 
     private String hotelAddress;
     private String[] selectedTouristLocation =new String[5] ;

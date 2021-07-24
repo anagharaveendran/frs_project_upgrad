@@ -1,6 +1,6 @@
 package com.upgrad.company;
 
-public class RegularTicket extends Ticket {
+public class RegularTicket extends Ticket { // Inherited from ticket
     private String specialServices;
 
 

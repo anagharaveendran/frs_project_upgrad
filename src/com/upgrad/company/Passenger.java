@@ -48,13 +48,14 @@ public class Passenger {
         public int getId() {
             return this.id;
         }
-      //  public void setId(int id){this.id = id;}
-        public String getAddressDetails() {
-            return address.street + ", " + address.city + ", " + address.state;
+       public void setId(int id){this.id = id;}
+
+        public String getAddressDetails() { // Address Details
+            return "Address Details: "+address.street + ", " + address.city + ", " + address.state;
         }
 
-        public String getContactDetails() {
-            return contact.name + ", " + contact.phone + ", " + contact.email;
+        public String getContactDetails() { // Contact Details
+            return "Contact Details: "+contact.name + ", " + contact.phone + ", " + contact.email;
         }
     }
 
